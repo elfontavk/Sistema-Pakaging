@@ -221,7 +221,8 @@
       "SYMBOL CARD 2C FSC",
       "SYMBOL FREELIFE SATIN FSC MIX CREDIT",
       "TOM&OTTO GLOS FSC MIX CREDIT",
-      "ULTRABOX PLUS FSC MIX CREDIT"
+      "ULTRABOX PLUS FSC MIX CREDIT",
+      "PAPEL LAMINADO POLIESTER PLATA"
     ],
     "inks": [
       "Offset Convencional (estándar)",
@@ -281,126 +282,42 @@
   "rules": [
     {
       "when_all": {
-        "finishes": [
-          "Hot foil (estamping caliente)"
+        "materials": [
+          "MB Prime FBB Bright New FSC MIX CREDIT"
+        ],
+        "inks": [
+          "UV Offset"
         ],
         "varnishes": [
-          "UV brillo",
-          "UV mate/satinado"
-        ]
-      },
-      "severity": "WARNING",
-      "message": "Barniz UV sobre hot foil puede producir de-wetting y pérdida de brillo. Usar OPV compatible o reservar."
-    },
-    {
-      "when_all": {
-        "varnishes": [
-          "Anti-scratch/anti-scuff OPV"
-        ]
-      },
-      "severity": "INFO",
-      "message": "Soft touch es sensible al rayado: considera OPV anti-scuff compatible o laminar con soft-touch."
-    },
-    {
-      "when_all": {
-        "finishes": [
-          "Códigos invisibles UV/IR"
+          "mate 7946 effect no estampable offset"
         ],
         "films": [
-          "Laminado BOPP brillo",
-          "Laminado BOPP mate",
-          "Laminado PET brillo"
+          "Laminado BOPP brillo"
+        ],
+        "finishes": [
+          "Emboss (relieve)"
+        ],
+        "adhesion_glue": [
+          "Pegado PVA (cola blanca)"
         ]
       },
       "severity": "WARNING",
-      "message": "El laminado puede inutilizar la lectura de códigos UV/IR. Deja ventana sin laminar o imprime por segunda pasada."
+      "message": "poco relieve: dos pases para mas presion  dependiendo de tamaño"
     },
     {
       "when_all": {
         "materials": [
-          "Cartón metalizado (foil/transfer metal)"
+          "PAPEL LAMINADO POLIESTER PLATA"
         ],
-        "inks": [
-          "Offset Convencional (estándar)"
-        ]
-      },
-      "severity": "WARNING",
-      "message": "Sobre metalizado, la densidad y el trapping cambian: usar cama blanca/primer y ajustar curvas."
-    },
-    {
-      "when_all": {
-        "material": [
-          "WLC (GD/GT) – reciclado estucado dorso gris/crema"
+        "films": [
+          "Laminado BOPP brillo"
         ],
         "finishes": [
-          "Hot foil (estamping caliente)"
-        ]
-      },
-      "severity": "WARNING",
-      "message": "Hot foil sobre WLC puede fallar por baja resistencia superficial/estucado heterogéneo. Recomiende foil adhesivo 'agresivo', presión mayor y prueba previa."
-    },
-    {
-      "when_all": {
-        "material": [
-          "SUS – kraft virgen dorso marrón"
-        ],
-        "finishes": [
-          "Cold foil (en frío)"
-        ]
-      },
-      "severity": "ERROR",
-      "message": "Cold foil requiere superficie muy lisa y pre-adhesivo UV; dorso kraft no estucado no es adecuado. Usar cara estucada o pre-coat."
-    },
-    {
-      "when_all": {
-        "material": [
-          "Cast Coated – alto brillo espejo"
-        ],
-        "finishes": [
-          "Emboss (relieve)",
           "Relieve multinivel"
         ]
       },
       "severity": "WARNING",
-      "message": "Cast coated es rígido y quebradizo en relieve profundo; riesgo de craquelado/brillo roto. Reducir profundidad, usar utillaje templado y prueba."
-    },
-    {
-      "when_all": {
-        "finishes": [
-          "Cast & Cure (holografía clara)"
-        ],
-        "varnishes": [
-          "UV brillo",
-          "UV mate/satinado"
-        ]
-      },
-      "severity": "INFO",
-      "message": "Cast & Cure requiere barniz UV curable y superficie lisa. Verificar dureza UV y película para evitar bloqueo."
-    },
-    {
-      "when_all": {
-        "varnishes": [
-          "Soft touch acuoso",
-          "Soft touch film (laminado)"
-        ],
-        "finishes": [
-          "Hot foil (estamping caliente)"
-        ]
-      },
-      "severity": "WARNING",
-      "message": "Soft touch tiene baja energía superficial: usar foil/placa específicos para soft touch o aplicar primer. Riesgo de mala transferencia."
-    },
-    {
-      "when_all": {
-        "inks": [
-          "Offset Convencional (estándar)"
-        ],
-        "context": [
-          "Alimentación"
-        ]
-      },
-      "severity": "ERROR",
-      "message": "Evitar tintas convencionales estándar en estuches alimentarios sensibles. Use series LM o barrera funcional validada."
+      "message": "PRESION RELIEVE: UN PASE POR CADA ESCTUCHE"
     }
   ]
 };
@@ -949,6 +866,16 @@
   {
     "grupo": "",
     "nombre": "ULTRABOX PLUS FSC MIX CREDIT",
+    "alias": "",
+    "calibre_mm": "",
+    "gramaje_gm2": "",
+    "caracter": "",
+    "uso": "",
+    "observaciones": ""
+  },
+  {
+    "grupo": "",
+    "nombre": "PAPEL LAMINADO POLIESTER PLATA",
     "alias": "",
     "calibre_mm": "",
     "gramaje_gm2": "",
